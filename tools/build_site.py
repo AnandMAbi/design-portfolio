@@ -78,9 +78,7 @@ def header(root):
 def contact(root, label="Contact"):
     cols = f"""
       <div class="contact__col"><h4>Email</h4><a href="mailto:{SITE['email']}">{SITE['email']}</a></div>
-      <div class="contact__col"><h4>Elsewhere</h4>{"".join(f'<a href="{u}">{e(n)}</a><br>' for n, u in SITE["socials"])}</div>
       <div class="contact__col"><h4>Index</h4><a href="{root}index.html#work">Work</a><br><a href="{root}index.html#about">About</a></div>
-      <div class="contact__col"><h4>Local time</h4><p data-clock>—</p></div>
     """
     return f"""
 <section class="contact" id="contact">

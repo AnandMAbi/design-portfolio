@@ -9,11 +9,6 @@ SITE = dict(
     year="2026",
     title="Anand M A — Visual Designer",
     description="Visual designer working across mobile products, interface systems and brand identity.",
-    socials=[
-        ("LinkedIn", "#"),
-        ("Behance", "#"),
-        ("Instagram", "#"),
-    ],
     industries="Health · Education · Commerce · Lifestyle",
 )
 
