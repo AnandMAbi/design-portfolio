@@ -190,7 +190,7 @@ section[id]{scroll-margin-top:clamp(64px,5vw,84px)}
 
 /* ---------- capabilities ---------- */
 .caps{border-top:var(--rule) solid var(--ink);display:grid;grid-template-columns:repeat(12,1fr)}
-.cap{grid-column:span 3;padding-block:clamp(20px,2.4vw,34px);padding-right:20px;border-right:var(--rule) solid var(--line);display:flex;flex-direction:column;gap:clamp(24px,4vw,58px);min-height:clamp(170px,17vw,240px)}
+.cap{grid-column:span 3;padding-block:clamp(20px,2.4vw,34px);padding-inline:clamp(18px,2vw,30px);border-right:var(--rule) solid var(--line);display:flex;flex-direction:column;gap:clamp(24px,4vw,58px);min-height:clamp(170px,17vw,240px)}
 .cap:last-child{border-right:0}
 .cap__num{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--muted)}
 .cap h3{font-size:clamp(1.05rem,1.4vw,1.35rem);font-weight:500;letter-spacing:-.02em;margin:0 0 6px}
